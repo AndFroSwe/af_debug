@@ -3,7 +3,7 @@
  * Version: 1.0
  * Author: Andreas Fröderberg
  * Created: 2016-09-20
- * Last edit: 2016-09-20
+ * Last edit: 2016-09-26
  *
  * Header with debugging functions that can be set with a preprocessor flag. 
  * Usage: 
@@ -14,6 +14,8 @@
 
 #ifndef AF_DEBUG_H
 #define AF_DEBUG_H
+
+#include <iostream>
 
 #ifdef AF_DEBUG
 #if AF_DEBUG
